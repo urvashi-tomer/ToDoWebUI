@@ -144,6 +144,14 @@
 #trip-to-paris{
     font-weight: bold;
     font-size: 3rem;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#trip-to-paris span{
+    background:#fff;
+    padding: 0 10px;
 }
 
 .card-container2{
@@ -253,4 +261,26 @@
     position:absolute;
     left: 163px;
     font-size: 20px;
+}
+
+/* a:link { text-decoration: coral; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; } */
+
+a:link {color: lightcoral; text-decoration: none;}  
+a:visited {color: lightcoral}  
+a:hover {color: lightcoral}  
+a:active {color: lightcoral}  
+
+.hr{
+    width: 194px;
+    position: absolute;
+    top: 52px;
+    left: 27px;
+}
+
+hr span { 
+    background:#fff; 
+    padding:0 10px; 
 }
